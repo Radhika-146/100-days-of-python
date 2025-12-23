@@ -33,7 +33,7 @@ if (d<=5):
 elif(d>=6 and d<=10):
         f=5*2+(d-5)*4
         print("Fine ₹",f)
-elif(d>=10 and d<=20):
+elif(d>10 and d<=30):
         f=5*2+5*4+(d-10)*6
         print("Fine ₹",f)
 else:
